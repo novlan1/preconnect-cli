@@ -1,4 +1,4 @@
-## Preconnect-Cli
+## preconnect-cli
 
 生成DNS预解析、预连接HTML的脚手架工具
 
