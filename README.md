@@ -1,0 +1,29 @@
+## Preconnect-Cli
+
+生成DNS预解析、预连接HTML的脚手架工具
+
+### 使用方法
+
+```
+preconnect-cli 路径 路径 ...
+```
+
+举例：
+
+```bash
+preconnect-cli ./index.html ./index2.html
+
+# 或者
+preconnect-cli /Users/mike/index.html /Users/mike/index2.html
+```
+
+
+### 生成示例
+
+```html
+<link rel="dns-prefetch" href="//qq.com">
+<link rel="preconnect" href="//qq.com" crossorigin>
+<link rel="dns-prefetch" href="//baidu.com">
+<link rel="preconnect" href="//baidu.com" crossorigin>
+```
+
